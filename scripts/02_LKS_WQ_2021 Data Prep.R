@@ -200,9 +200,4 @@ blwq_allparam <-mutate(blwq_done_allparam, year=lubridate::year(datetimestamp))
 olwq_allparam <-mutate(olwq_done_allparam, year=lubridate::year(datetimestamp))
 powq_allparam <-mutate(powq_done_allparam, year=lubridate::year(datetimestamp))
 
-#these get carried over to 02_06_LKS_newcodeFORbetterGraphs2021 R code for analysis and plotting
-write.csv(bawq_allparam, file = "bawq.csv")
-write.csv(blwq_allparam, file = "blwq.csv")
-write.csv(olwq_allparam, file = "olwq.csv")
-write.csv(powq_allparam, file = "powq.csv")
 
