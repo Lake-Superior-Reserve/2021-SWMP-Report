@@ -16,7 +16,7 @@
 # http://swmprats.net/2016-workshop
 
 
-#Update R is needed
+#Update R as needed
 
 
 source("scripts/01_LOAD_packages.R")
