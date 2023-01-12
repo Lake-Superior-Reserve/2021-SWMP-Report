@@ -16,16 +16,10 @@
 # http://swmprats.net/2016-workshop
 
 
-## load libraries  
-library(SWMPr)
-library(SWMPrExtension)
-library(lubridate)
-library(ggplot2)
-library(dplyr)
-library(scales)
-library(tidyr)
-library(extrafont)
-library(cowplot)
+#Update R is needed
+
+
+source("scripts/01_LOAD_packages.R")
 
 font_import(paths = "C:/Windows/Fonts")
 
@@ -327,7 +321,7 @@ plt <-
   theme(axis.ticks = element_line(color = "grey50", size = 0.2))
 plt
 
-ggsave("BarkersIslandTemp.TIFF", units = "px", width=1500, height=900 ,dpi = 600)
+ggsave("BarkersIslandTemp.TIFF", units = "px", width=1500, height=900 ,dpi = 600, path = "outputs")
 plot(plt)
 
 ##Now do the same plot but for Pokegama Conductivity.
@@ -415,7 +409,7 @@ pltCond <-
 pltCond
 
 
-ggsave("PokegamaCond.tiff.TIFF", units = "px", width=1500, height=900 ,dpi = 300)
+ggsave("PokegamaCond.tiff.TIFF", units = "px", width=1500, height=900 ,dpi = 300, path = "outputs")
 
 
 
@@ -752,18 +746,17 @@ baTempAnom
 
 baTempAnomYEAR<-baTempplots[[6]]
 
-ggsave("BarkersIslandTempAnom2021.TIFF", units = "px", width=1500, height=1000 ,dpi = 300)
+ggsave("BarkersIslandTempAnom2021.TIFF", units = "px", width=1500, height=1000 ,dpi = 300, path = "outputs")
 #make some turbidity plots
 
 olTurbplots<-plot_summary2(olwq_allparam, param  = "turb", years = c(2013, 2021), plt_sep = TRUE)
 olTurbAnomYEAR<-olTurbplots[[6]]
 
 
-ggsave("OliverAnnualTurbidityAnom2021.TIFF", units = "px", width=1500, height=1000 ,dpi = 300)
+ggsave("OliverAnnualTurbidityAnom2021.TIFF", units = "px", width=1500, height=1000 ,dpi = 300, path = "outputs")
 
 
 poCondplots<-plot_summary2(powq_allparam, param  = "spcond", years = c(2014, 2021), plt_sep = TRUE)
 
-##dissolved Oxygen short time period graph
 
 

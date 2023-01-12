@@ -1,14 +1,14 @@
-##All libraries used in training
+#all Packages needed for this file
 library(SWMPr)
 library(SWMPrExtension)
 library(lubridate)
 library(ggplot2)
 library(dplyr)
 
+# data downloaded from CDMO as AQS ZIP on 12/27/2021 and put in data folder within project folder
+# ensure working directory is project directory
 
-
-### FEED IN WQ DATA ##### data downloaded from AQS ZIP as of 1/30/2020 data 2012-2019 then 2021 added 12/27/2021
-Data_Source <- "C:/Users/hramage/OneDrive - UW-Madison/LSNERR_SWMP/R/2021 Analysis/2021 Trend Analysis/data"
+Data_Source <- "data"
 
 ##Feed in our BA WQ data
 bawq <- import_local(Data_Source, "lksbawq", trace = TRUE)
@@ -25,9 +25,7 @@ powq <- import_local(Data_Source, "lkspowq", trace = TRUE)
 ### qaqc keep all flags then REMOVE Columns and rows with all NAs### for abstract to see how many datapoints we have including all flags
 bawq_qaqcrc <- qaqc(bawq, qaqc_keep=c(-5,-4,-3,-2,-1,0,1,2,3,4,5))
 blwq_qaqcrc <- qaqc(blwq, qaqc_keep=c(-5,-4,-3,-2,-1,0,1,2,3,4,5))
-
 olwq_qaqcrc <- qaqc(olwq, qaqc_keep=c(-5,-4,-3,-2,-1,0,1,2,3,4,5))
-
 powq_qaqcrc <- qaqc(powq, qaqc_keep=c(-5,-4,-3,-2,-1,0,1,2,3,4,5))
 
 
@@ -40,7 +38,7 @@ powq_rc <- subset(powq_qaqcrc, rem_cols=TRUE, rem_rows = TRUE)
 Number<-(nrow(bawq_rc)*ncol(bawq_rc))+(nrow(blwq_rc)*ncol(blwq_rc))+(nrow(olwq_rc)*ncol(olwq_rc))+(nrow(powq_rc)*ncol(powq_rc))
 Number
 
-### QAQC our data keeping flags:   ######
+#QAQC our data keeping flags:
 bawq_qaqc <- qaqc(bawq, qaqc_keep=c(0,1,2,3,4,5))
 
 blwq_qaqc <- qaqc(blwq, qaqc_keep=c(0,1,2,3,4,5))
@@ -53,8 +51,8 @@ powq_qaqc <- qaqc(powq, qaqc_keep=c(0,1,2,3,4,5))
 #checking what these outputs are
 names(bawq_qaqc)
 
-### REMOVE Columns and rows with all NAs, which is level and clevel and chlfluor for some sites
-### rows that are removed will be ones that have all NAS so chunks of time that have no data (winter and bad deployments)
+#REMOVE Columns and rows with all NAs, which is level and clevel and chlfluor for some sites
+#rows that are removed will be ones that have all NAS so chunks of time that have no data (winter and bad deployments)
 bawq_qaqc1 <- subset(bawq_qaqc, rem_cols=TRUE, rem_rows = TRUE)
 blwq_qaqc1 <- subset(blwq_qaqc, rem_cols=TRUE, rem_rows = TRUE)
 olwq_qaqc1 <- subset(olwq_qaqc, rem_cols=TRUE, rem_rows = TRUE)
@@ -69,7 +67,7 @@ head(bawq_qaqc1)
 ##########################################################################################
 
 
-###### add a column for year and month to help with sorting and later monthly trend analysis
+# add a column for year and month to help with sorting and later monthly trend analysis
 
 #BA
 bawq_qaqc2 <- mutate(bawq_qaqc1, year=lubridate::year(datetimestamp))
