@@ -1,9 +1,7 @@
 #removes months of data that do not have enough data points to be used in monthly aggregation analyses later. 
 #A month must have 3 weeks worth of data to keep for monthly trend analysis
 
-
-bawq_allparam<- 
-  bawq_qaqc%>%
+bawq_allparam<-bawq_qaqc %>%
   filter(!grepl('2015-03', datetimestamp))%>%
   filter(!grepl('2016-03', datetimestamp))%>%
   filter(!grepl('2017-03', datetimestamp))%>%
@@ -24,7 +22,6 @@ bawq_allparam<-
   filter(!grepl('2016-12', datetimestamp))%>%
   filter(!grepl('2020-11', datetimestamp))%>%
   filter(!grepl('2021-03', datetimestamp))
-
 
 
 blwq_allparam<- 
