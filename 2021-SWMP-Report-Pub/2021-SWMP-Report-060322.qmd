@@ -20,15 +20,13 @@ To sum up all of the water temperature extremes, 2021 had the warmest ever water
 
 In addition to making swimming a less frigid activity, unusually high water temperatures speed up the overall metabolism of the estuary. Organisms that reside in the water tend to breathe, eat, and move more as temperature goes up. The relatively warm waters of 2021 created a good condition for increased productivity in the estuary.
 
-## It's All Becoming Clear
-
 After a substantial rain, the waters in the St. Louis River estuary turn brown and cloudy with the swirling influx of clay soil and organic matter that washes off the land. Cloudy water is also called **turbid** water. Turbidity can block sunlight from reaching aquatic plants and other photosynthetic organisms. Heavy rain years (like the one in 2016) often produce more turbid water in the estuary.
 
 As you may have noticed from all the withering grass, rain events in 2021 were scarce. Drought conditions led to **very clear water** at the Oliver Bridge monitoring station, which is upriver in the main channel of the estuary. In fact, 2021 was the clearest the water has ever been since 2013. With ample sunny days, plants and photosynthetic organisms, like algae and cyanobacteria, grow without much limitation from light-blocking turbidity.
 
 ![Turbidity at Oliver Bridge](2021SWMPReport_oliver_annual_anomalies_turb.png)
 
-# Hot, Dry, and a Bloom, Oh My
+## Hot, Dry, and a Bloom, Oh My
 
 When you have unusually warm and clear water fostering high productivity in the St. Louis River estuary, cyanobacteria (or blue-green algae) can take advantage of two of their preferred conditions - warm water and plentiful sun - to grow and become numerous. When the growth of cyanobacteria becomes excessive, it can be labeled a **bloom.** This was observed on the morning of September 10th in the waters just off Barker's Island inner beach. The bright, opaque green scum on top of the water was tested and later found to contain three species of cyanobacteria and the presence of two toxins, the first detection of cyanotoxins in a Lake Superior-connected waterway.
 
@@ -37,6 +35,7 @@ When you have unusually warm and clear water fostering high productivity in the 
 This was a very visible bloom in a high traffic area and was fortunately detected by Reserve staff. As questions arise about the future of blooms in the estuary, the Reserve continues to improve bloom monitoring and detection efforts. Our Reserve has joined with 12 other National Estuarine Research Reserves across the country to evaluate algae sensors that would continuously track algal abundance, in hopes of providing real-time information on potential blooms. Further testing will tell if this method will help us better find and study cyanobacteria in the estuary. Further monitoring and research will help us determine if the Barker's Island bloom was related to the unusual water quality in 2021, or if it is a part of a longer term trend towards more productive waters.
 
 ## Keep up with the SWMP
+
 
 Access all the SWMP water quality data by visiting https://cdmo.baruch.sc.edu/dges/
 

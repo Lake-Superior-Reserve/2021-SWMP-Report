@@ -1,0 +1,31 @@
+/* css styles */
+
+
+@font-face {
+  font-family: avenir;
+  src: url(Avenir Next.ttc);
+}
+
+@font-face {
+  font-family: myriad_pro;
+  src: url(MyriadPro-Regular.otf);
+}
+
+h1 {
+  color: #882724;
+  font-family: avenir;
+}
+
+h2 {
+  color: #882724;
+  font-family: avenir;
+}
+
+h3 {
+  color: #882724;
+  font-family: avenir;
+}
+
+p {
+  font-family: minion pro;
+}

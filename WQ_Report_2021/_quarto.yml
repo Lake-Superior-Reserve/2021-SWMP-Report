@@ -1,0 +1,21 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "WQ_Report_2021"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  favicon: "/assets/Full_logo_circle.png"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
