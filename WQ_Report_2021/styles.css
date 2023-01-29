@@ -27,6 +27,11 @@ p {
   font-family: minion pro;
 }
 
+.navbar-logo {
+min-width: 80px;
+min-height: 60px;
+}
+
 .bloom {
 Padding: 0px 15px 0px 0px;
 }
