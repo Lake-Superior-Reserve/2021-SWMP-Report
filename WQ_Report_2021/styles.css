@@ -1,27 +1,24 @@
 /* css styles */
 
-
 @font-face {
   font-family: avenir;
-  src: url(Avenir Next.ttc);
+  src: url(assets/Avenir Next.ttc);
 }
 
 @font-face {
   font-family: myriad_pro;
-  src: url(MyriadPro-Regular.otf);
+  src: url(assets/MyriadPro-Regular.otf);
 }
 
-h1 {
-  color: #882724;
-  font-family: avenir;
+#quarto-header {
+  font-size: 22px;
 }
 
-h2 {
-  color: #882724;
-  font-family: avenir;
+body {
+  background-color: #f3f2e5;
 }
 
-h3 {
+h1, h2, h3 {
   color: #882724;
   font-family: avenir;
 }

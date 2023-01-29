@@ -2,8 +2,9 @@
 title: "About"
 ---
 
-About this site
+### Authors: 
+Karina Heim & Hannah Ramage
 
-```{r}
-1 + 1
-```
+#### Keep up with the SWMP
+Access all the SWMP water quality data by visiting https://cdmo.baruch.sc.edu/dges/  
+Contact the SWMP Coordinator: hannah.ramage\@wisc.edu phone: 715-399-4088
