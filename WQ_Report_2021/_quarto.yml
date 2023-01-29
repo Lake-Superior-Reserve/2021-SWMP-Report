@@ -7,7 +7,7 @@ website:
   navbar:
     background: "#424765"
     pinned: true
-    logo: "/assets/lake-superior-reserve-rgb-logo.png"
+    logo: "assets/lake-superior-reserve-rgb-logo.png"
     title: "St. Louis River Estuary Water Quality Report"
     right:
       - href: index.qmd
