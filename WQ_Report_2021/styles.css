@@ -18,13 +18,23 @@ body {
   background-color: #f3f2e5;
 }
 
-h1, h2, h3 {
+h1, h2 {
   color: #882724;
   font-family: avenir;
 }
 
+h3, h4 {
+  color: #f3f2e5;
+  font-family: avenir;
+  text-decoration: underline;
+}
+
 p {
   font-family: minion pro;
+}
+
+a {
+  color: #faeeca;
 }
 
 .navbar-logo {
@@ -45,11 +55,31 @@ padding-right: 40px;
   color: #f3f2e5;
 }
 
-}
-.bloom {
-Padding: 0px 15px 0px 0px;
+.side-bar {
+  background-color: #424765;
+  margin: 0 0 20px 20px;
+  padding: 20px;
+  font-family: avenir;
+  font-size: 110%;
+  float: right;
+  width: 300px;
+  color: #f3f2e5;
 }
 
 .turbidity {
 Padding: 0 0 0 15px;
+}
+
+.bloom {
+  padding-right: 20px;
+}
+
+.keep-up {
+  background-color: #424765;
+  padding: 0 20px 20px 20px;
+  font-family: avenir;
+  font-size: 110%;
+  float: left;
+  width: 500px;
+  color: #f3f2e5;
 }
