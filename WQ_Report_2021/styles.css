@@ -14,9 +14,11 @@
   font-size: 22px;
 }
 
+/*
 body {
   background-color: #f3f2e5;
 }
+*/
 
 h1, h2 {
   color: #882724;
@@ -66,8 +68,18 @@ padding-right: 40px;
   color: #f3f2e5;
 }
 
+.barkers_rain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 .turbidity {
-Padding: 0 0 0 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .bloom {
@@ -82,4 +94,12 @@ Padding: 0 0 0 15px;
   float: left;
   width: 500px;
   color: #f3f2e5;
+}
+
+.keep-up h3 {
+  color: #882724;
+  background-color: #f3f2e5;
+  text-decoration: none;
+  text-align: center;
+  padding: 6px;
 }

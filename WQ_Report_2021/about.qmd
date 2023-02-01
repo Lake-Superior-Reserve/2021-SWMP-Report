@@ -3,8 +3,9 @@ title: "About"
 ---
 
 ### Authors: 
-Karina Heim & Hannah Ramage
+Hannah Ramage & 
 
-#### Keep up with the SWMP
-Access all the SWMP water quality data by visiting https://cdmo.baruch.sc.edu/dges/  
-Contact the SWMP Coordinator: hannah.ramage\@wisc.edu phone: 715-399-4088
+
+The data used to develop this report was collected and distributed by the National Estuarine Research System
+
+NOAA National Estuarine Research Reserve System (NERRS). System-wide Monitoring Program. Data accessed from the NOAA NERRS Centralized Data Management Office website: http://www.nerrsdata.org; accessed 30 January 2020.
