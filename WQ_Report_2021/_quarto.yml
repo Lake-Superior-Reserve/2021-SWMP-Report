@@ -13,7 +13,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
-  favicon: "/assets/Full_logo.png"
+  favicon: "/assets/lake-superior-reserve-rgb-logo.png"
 
 format:
   html:
