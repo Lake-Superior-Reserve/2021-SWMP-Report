@@ -1,0 +1,105 @@
+/* css styles */
+
+@font-face {
+  font-family: avenir;
+  src: url(assets/Avenir Next.ttc);
+}
+
+@font-face {
+  font-family: myriad_pro;
+  src: url(assets/MyriadPro-Regular.otf);
+}
+
+#quarto-header {
+  font-size: 22px;
+}
+
+/*
+body {
+  background-color: #f3f2e5;
+}
+*/
+
+h1, h2 {
+  color: #882724;
+  font-family: avenir;
+}
+
+h3, h4 {
+  color: #f3f2e5;
+  font-family: avenir;
+  text-decoration: underline;
+}
+
+p {
+  font-family: minion pro;
+}
+
+a {
+  color: #faeeca;
+}
+
+.navbar-logo {
+min-height: 60px;
+width: auto;
+padding-right: 40px;
+}
+
+.navbar-brand {
+  font-family: avenir;
+  font-size: 2rem;
+  color: #f3f2e5;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  font-family: avenir;
+  font-size: 1.5rem;
+  color: #f3f2e5;
+}
+
+.side-bar {
+  background-color: #424765;
+  margin: 0 0 20px 20px;
+  padding: 20px;
+  font-family: avenir;
+  font-size: 110%;
+  float: right;
+  width: 300px;
+  color: #f3f2e5;
+}
+
+.barkers_rain {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.turbidity {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.bloom {
+  padding-right: 20px;
+}
+
+.keep-up {
+  background-color: #424765;
+  padding: 0 20px 20px 20px;
+  font-family: avenir;
+  font-size: 110%;
+  float: left;
+  width: 500px;
+  color: #f3f2e5;
+}
+
+.keep-up h3 {
+  color: #882724;
+  background-color: #f3f2e5;
+  text-decoration: none;
+  text-align: center;
+  padding: 6px;
+}

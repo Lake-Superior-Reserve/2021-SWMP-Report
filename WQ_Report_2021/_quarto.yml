@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "WQ_Report_2021"
+  navbar:
+    background: "#424765"
+    pinned: true
+    logo: "assets/lake-superior-reserve-rgb-logo.png"
+    title: "St. Louis River Estuary Water Quality Report"
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+  favicon: "/assets/lake-superior-reserve-rgb-logo.png"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

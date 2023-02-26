@@ -1,0 +1,44 @@
+---
+title: "How.we.did.this"
+author: "Sam Shanks"
+date: "`r Sys.Date()`"
+output: html_document
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+## How we did the Quarto site:
+
+-   Start with a document that has all of the thinky-bits all worked out
+    in advance (or write as you go)
+
+-   From R-Studio you want to start a new project in a new directory.
+    One of your options is to create a "Quarto Website"
+
+-   When you create that project, Quarto will automatically generate a
+    bunch of files including the html files for the index & about pages,
+    as well as the .css files to control the final look and feel of the
+    site
+
+-   Most of the heavy lifting in terms of layout should be done using
+    markdown in R-Studio in the .qmd files
+
+    -   Note: you can always just add raw html to the markdown files and
+        they will be rendered seamlessly into the final website
+
+-   The "styles.css" file is important, and it gives you the ability to
+    override the boilerplate css language that is built into the rest of
+    the site.
+
+    -   This is where you can add custom fonts, colors, etc.
+    -   This file remains stable when Quarto re-renders the rest of the
+        site - When you are reasonably satisfied with the markdown
+        document, and you want to see how the site looks, save the file
+        and then click on the "Render" arrow.
+
+-   You can now open the index.html file in your favorite browswer and
+    see how things look!
+
+    -   It's always a good idea to check your work in multiple browsers
+        & on multiple screen types
