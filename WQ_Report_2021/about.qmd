@@ -3,7 +3,7 @@ title: "About"
 ---
 
 ### Authors: 
-Hannah Ramage & 
+Hannah Ramage & Karina Heim
 
 
 The data used to develop this report was collected and distributed by the National Estuarine Research System
