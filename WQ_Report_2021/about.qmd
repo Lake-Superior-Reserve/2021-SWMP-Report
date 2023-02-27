@@ -3,7 +3,7 @@ title: "About"
 ---
 
 
-<h3><span style="color:#882724">Authors:<span></h3>
+<h3><div class="authors">Authors:</div></h3>
 **Hannah Ramage & Karina Heim  **
   
   

@@ -39,6 +39,11 @@ a {
   color: #faeeca;
 }
 
+.authors {
+  color: #882724;
+  text-decoration: none;
+}
+
 .navbar-logo {
 min-height: 60px;
 width: auto;
